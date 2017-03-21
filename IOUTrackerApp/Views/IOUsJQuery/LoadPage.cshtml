@@ -1,0 +1,436 @@
+﻿@model IOUTrackerApp.Models.IOUViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <br />
+    <button onclick="ToggleCreate()" class="btn btn-default">Toggle  View</button>
+    <br />
+    <button id="RefreshList" class="btn btn-default" style="display:none">Refresh List</button>
+    <br />
+
+    <table>
+        <tr>
+            <td>
+                <div style="display:inline-block;">
+                    <h3>Manage IOUs</h3>
+                    <table id="IOUItemsTable" border="1" style="font:100">
+                        <tr>
+                            <th style="display:none">ID</th>
+                            <th>Lender</th>
+                            <th>Amount</th>
+                            <th>Date Borrowed</th>
+                            <th>Planned Return</th>
+                            <th>Status</th>
+                        </tr>
+                        @if (Model.allIOUsOfUser.Count() == 0)
+            {
+                            <tr>
+                                <td colspan="4">No Results</td>
+                            </tr>
+                        }
+                        @foreach (var item in Model.allIOUsOfUser)
+            {
+                            <tr>
+                                <td style="display:none;">@item.IOUId</td>
+                                <td>@item.lenderName</td>
+                                <td>@item.amount</td>
+                                <td>@item.takenDt.ToString(@"MM/dd/yyyy")</td>
+                                <td>@item.plannedReturnDt.ToString(@"MM/dd/yyyy")</td>
+                                <td style="background-color:@item.status.color.color">@item.status.status</td>
+                                <td>@*@Ajax.ActionLink(linkText: "Delete", actionName: "Delete", routeValues: new { Id = item.IOUId }, ajaxOptions: new AjaxOptions { HttpMethod = "POST", InsertionMode = InsertionMode.Replace, UpdateTargetId = "AjaxWriteDiv", Confirm = "Are you sure you want to delete this IOU Item?" }, controllerName: "AjaxIOUs")*@</td>
+                                <td><button class="btn btn-default" style="display:none;" onclick="if(confirm('Are you sure you want to delete this IOU Item?')) deleteIOUItem('@item.IOUId')">Delete</button></td>
+                                <td><button class="btn btn-default" style="display:none;" onclick="loadIOUForUpdate(this)">Update</button></td>
+                                <td>@*@Ajax.ActionLink(linkText: "Edit", actionName: "EditLoad", routeValues: new { Id = item.IOUId }, ajaxOptions: new AjaxOptions { HttpMethod = "POST", InsertionMode = InsertionMode.Replace, UpdateTargetId = "AjaxWriteDiv" }, controllerName: "AjaxIOUs")*@</td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+            </td>
+            <td>
+                <div id="CreateDiv" style=" display: none">
+
+                    @using (Ajax.BeginForm("Create", new AjaxOptions
+                    {
+                        HttpMethod = "POST",
+                        InsertionMode = InsertionMode.Replace,
+                        UpdateTargetId = "AjaxWriteDiv"
+                    }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <h3>Manage IOU</h3>
+
+                        <div class="form-horizontal">
+                            <h4>IOU</h4>
+                            <hr />
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group" style="display:none">
+                                @Html.LabelFor(model => model.iOU.IOUId, htmlAttributes: new { @class = "control-label col-md-4" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.iOU.IOUId, new { htmlAttributes = new { @class = "form-control" } })
+                                    @*@Html.ValidationMessageFor(model => model.iOU.IOUId, "", new { @class = "text-danger" })*@
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.iOU.lenderName, htmlAttributes: new { @class = "control-label col-md-4" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.iOU.lenderName, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.iOU.lenderName, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.iOU.amount, htmlAttributes: new { @class = "control-label col-md-4" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.iOU.amount, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.iOU.amount, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            @*<div class="form-group">
+                                    @Html.LabelFor(model => model.iOU.takenDt, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.iOU.takenDt, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.iOU.takenDt, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>*@
+
+                            @*<div class="form-group">
+                                    @Html.LabelFor(model => model.iOU.statusChangedDt, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.iOU.statusChangedDt, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.iOU.statusChangedDt, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>*@
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.iOU.plannedReturnDt, htmlAttributes: new { @class = "control-label col-md-4" })
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.iOU.plannedReturnDt, new { htmlAttributes = new { @class = "date" } })
+                                    @Html.ValidationMessageFor(model => model.iOU.plannedReturnDt, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.iOU.statusId, "statusId", htmlAttributes: new { @class = "control-label col-md-4" })
+                                <div class="col-md-10">
+                                    @*@Html.DropDownList("statusId",null, htmlAttributes: new { @class = "form-control" })*@
+                                    @Html.DropDownListFor(model => model.iOU.statusId, new SelectList(Model.allIOUStatuses, "statusID", "status"), "--Select--")
+
+                                    @Html.ValidationMessageFor(model => model.iOU.statusId, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" id="btnCreateIOU" value="Create" class="btn btn-default" />
+                                    <input type="submit" id="btnUpdateIOU" value="Update" class="btn btn-default" />
+                                    <input type="submit" id="btnClearIOU" value="Clear" class="btn btn-default" />
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </td>
+        </tr>
+    </table>
+
+
+
+</body>
+<script>
+
+    //Initialization
+    function Initialize() {
+        $("#btnUpdateIOU").hide();
+        $("#btnCreateIOU").show();
+        ClearIOUFields();
+    }
+
+
+    function ToggleCreate() {
+        $("#IOUItemsTable").find("button").toggle("display");
+        $("#CreateDiv").toggle("display");
+        Initialize();
+    }
+
+    //Function for Updating the IOU
+    function loadIOUForUpdate(buttonObj) {
+        $("#btnCreateIOU").hide();
+        $("#btnUpdateIOU").show();
+
+        var row = $(buttonObj).parent().parent();
+        $("#iOU_IOUId").val(row.children().first().text());
+
+        var IOULendername = row.children().first().next();
+        $("#iOU_lenderName").val(IOULendername.text());
+
+        var IOUAmount = IOULendername.next();
+        $("#iOU_amount").val(IOUAmount.text());
+
+        var IOUDateBorrowed = IOUAmount.next();
+
+        var IOUPlannedReturnDate = IOUDateBorrowed.next();
+        $("#iOU_plannedReturnDt").val(getDateInyyyyMMdd(IOUPlannedReturnDate.text()));
+
+        var IOUStatusObj = IOUPlannedReturnDate.next();
+        $("#iOU_statusId").children().prop('selected', false);;
+        $("#iOU_statusId option:contains(" + IOUStatusObj.text() + ")").prop('selected', true);;
+
+        console.log($("#iOU_statusId option:contains(" + IOUStatusObj.text() + ")"));
+    }
+
+    //Function For Clearing the IOU Fields
+    function ClearIOUFields() {
+
+        $("#iOU_IOUId").val('');
+        $("#iOU_lenderName").val('');
+        $("#iOU_amount").val('0');
+        $("#iOU_plannedReturnDt").val((new Date()).customFormat('#MM#/#DD#/#YYYY#'));
+        $("#iOU_statusId").children().prop('selected', false);;
+        //$("#iOU_statusId option:contains(" + IOUStatusObj.text() + ")").prop('selected', true);;
+    }
+
+    function RefreshIOUItems() {
+
+        $.ajax({
+            url: "/IOUsJQuery/GetAllIOUs/"
+       , dataType: 'json'
+       , contentType: 'application/json'
+            // in MVC you would pass in your query string or form
+            // parameters into the data property
+       , method: 'GET'
+        })
+       .done(
+       function (responseJSON, status, xhr) {
+           // process the response
+           //$("#output").html(responseJSON.name);
+           //$("#age").html(responseJSON.age);
+           populateTable(responseJSON);
+           console.log("done function called");
+       })
+       .error(
+       function (xhr, status, error) {
+           // deal with error from server
+           //$("#error").show();
+           console.log("error function called");
+       });
+    }
+    function populateTable(IOUsList) {
+        console.log(IOUsList);
+        console.log('This data will be shown in table');
+        var IOUItemsTable = $("#IOUItemsTable");
+        //Clear previous data and not the headers
+        IOUItemsTable.find("tr:gt(0)").remove();
+
+
+        $.each(IOUsList, function (i, iou) {
+
+            //Append new data
+            IOUItemsTable.append(' <tr><td style="display:none;">' + iou.IOUId + '</td>'
+                + '<td>' + iou.lenderName + '</td>'
+                + '<td>' + iou.amount + '</td>'
+                + '<td>' + getDateInMMMddYYYY(new Date(parseInt(iou.takenDt.substr(6)))) + '</td>'
+                + '<td>' + getDateInMMMddYYYY(new Date(parseInt(iou.plannedReturnDt.substr(6)))) + '</td>'
+                + '<td style="background-color:' + iou.status.color.color + '">' + iou.status.status + '</td>'
+                + '<td><button class="btn btn-default" onclick="if(confirm(\'Are you sure you want to delete this IOU Item?\')) deleteIOUItem(' + iou.IOUId + ')"  >Delete</button></td>'
+                + '<td><button  class="btn btn-default"  onclick="loadIOUForUpdate(this)" >Update</button></td>'
+                + '</tr>');
+        }
+
+        );
+    }
+
+    //Function for Deleting the IOU
+    function deleteIOUItem(ID) {
+        console.log('delete function called for id' + ID);
+
+        $.ajax({
+            url: "/IOUsJQuery/Delete/"
+            // in MVC you would pass in your query string or form
+            // parameters into the data property
+           , data: { IOUid: ID }
+           , type: 'POST'
+        })
+    .done(
+        function () { RefreshIOUItems(); }
+    )
+    .error(
+    function (xhr, status, error) {
+        // deal with error from server
+        //$("#error").show();
+        console.log("error function called");
+    });
+
+
+        //prevent Refresh
+        return false;
+    }
+
+
+    //JQuery Code is here
+    window.onload =
+    function jQuery() {
+
+        $('.date').datepicker({ dateFormat: "mm/dd/yyyy" });
+
+        //Create Button Click
+        $("#btnCreateIOU").click(function () {
+            $("#btnUpdateIOU").hide();
+            var iOU_lenderName = $("#iOU_lenderName").val();
+            var iOU_amount = $("#iOU_amount").val();
+            var iOU_plannedReturnDt = $("#iOU_plannedReturnDt").val();
+            var iOU_statusId = $("#iOU_statusId option:selected").val();
+
+            var iou = {
+                IOUId: ''
+                , userID: ''
+                , lenderName: iOU_lenderName
+                , amount: iOU_amount
+                , takenDt: ''
+                , statusChangedDt: ''
+                , plannedReturnDt: iOU_plannedReturnDt
+                , statusId: iOU_statusId
+            };
+
+            console.log(iou);
+
+
+            $.ajax({
+                url: "/IOUsJQuery/Create/"
+                , dataType: 'json'
+                , contentType: 'application/json'
+                // in MVC you would pass in your query string or form
+                // parameters into the data property
+                , data: JSON.stringify(iou)
+                , method: 'POST'
+            })
+                .done(
+                    function () { RefreshIOUItems(); ClearIOUFields(); }
+                )
+                .error(
+                function (xhr, status, error) {
+                    // deal with error from server
+                    //$("#error").show();
+                    console.log("error function called");
+                });
+
+
+            //prevent Refresh
+            return false;
+        }
+       );
+
+        $("#btnUpdateIOU").click(
+            function () {
+                $("#btnCreateIOU").hide();
+                var iOU_IOUId = $("#iOU_IOUId").val();
+                var iOU_lenderName = $("#iOU_lenderName").val();
+                var iOU_amount = $("#iOU_amount").val();
+                var iOU_plannedReturnDt = $("#iOU_plannedReturnDt").val();
+                var iOU_statusId = $("#iOU_statusId option:selected").val();
+
+                var iou = {
+                    IOUId: iOU_IOUId
+                    , userID: ''
+                    , lenderName: iOU_lenderName
+                    , amount: iOU_amount
+                    , takenDt: ''
+                    , statusChangedDt: ''
+                    , plannedReturnDt: iOU_plannedReturnDt
+                    , statusId: iOU_statusId
+                };
+
+                console.log(iou);
+
+
+                $.ajax({
+                    url: "/IOUsJQuery/Edit/"
+                    //, dataType: 'json'
+                    , contentType: 'application/json'
+                    // in MVC you would pass in your query string or form
+                    // parameters into the data property
+                    , data: JSON.stringify(iou)
+                    , method: 'POST'
+                })
+                    .done(
+                        function () {
+                            RefreshIOUItems();
+                            $("#btnCreateIOU").show();
+                            $("#btnUpdateIOU").hide();
+                            ClearIOUFields();
+                        }
+                    )
+                    .error(
+                    function (xhr, status, error) {
+                        // deal with error from server
+                        //$("#error").show();
+                        console.log("error function called");
+                    });
+
+
+                //prevent Refresh
+                return false;
+            }
+
+            );
+
+        //Clear the fields when the Button is clicked
+        $("#btnClearIOU").click(
+                function () {
+                    $("#btnUpdateIOU").hide();
+                    $("#btnCreateIOU").show();
+                    ClearIOUFields();
+                    return false;
+                }
+            );
+
+
+        $("#RefreshList").click(
+        //Refresh List of IOU Items
+         function () { RefreshIOUItems(); }
+        );
+
+  
+
+    }
+
+
+    //Used utility method just for academic use
+    Date.prototype.customFormat = function (formatString) {
+        var YYYY, YY, MMMM, MMM, MM, M, DDDD, DDD, DD, D, hhhh, hhh, hh, h, mm, m, ss, s, ampm, AMPM, dMod, th;
+        YY = ((YYYY = this.getFullYear()) + "").slice(-2);
+        MM = (M = this.getMonth() + 1) < 10 ? ('0' + M) : M;
+        MMM = (MMMM = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][M - 1]).substring(0, 3);
+        DD = (D = this.getDate()) < 10 ? ('0' + D) : D;
+        DDD = (DDDD = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][this.getDay()]).substring(0, 3);
+        th = (D >= 10 && D <= 20) ? 'th' : ((dMod = D % 10) == 1) ? 'st' : (dMod == 2) ? 'nd' : (dMod == 3) ? 'rd' : 'th';
+        formatString = formatString.replace("#YYYY#", YYYY).replace("#YY#", YY).replace("#MMMM#", MMMM).replace("#MMM#", MMM).replace("#MM#", MM).replace("#M#", M).replace("#DDDD#", DDDD).replace("#DDD#", DDD).replace("#DD#", DD).replace("#D#", D).replace("#th#", th);
+        h = (hhh = this.getHours());
+        if (h == 0) h = 24;
+        if (h > 12) h -= 12;
+        hh = h < 10 ? ('0' + h) : h;
+        hhhh = hhh < 10 ? ('0' + hhh) : hhh;
+        AMPM = (ampm = hhh < 12 ? 'am' : 'pm').toUpperCase();
+        mm = (m = this.getMinutes()) < 10 ? ('0' + m) : m;
+        ss = (s = this.getSeconds()) < 10 ? ('0' + s) : s;
+        return formatString.replace("#hhhh#", hhhh).replace("#hhh#", hhh).replace("#hh#", hh).replace("#h#", h).replace("#mm#", mm).replace("#m#", m).replace("#ss#", ss).replace("#s#", s).replace("#ampm#", ampm).replace("#AMPM#", AMPM);
+    };
+    function getDateInMMMddYYYY(_dt) {
+        var dt = new Date(_dt);
+        return _dt.customFormat("#MM#/#DD#/#YYYY#");
+    };
+
+    function getDateInyyyyMMdd(_dt) {
+        var dt = new Date(_dt);
+        return _dt.customFormat("#YYYY#/#MM#/#DD#");
+    };
+
+</script>
+</html>

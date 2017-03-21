@@ -1,0 +1,276 @@
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\roslyn\csc.exe
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\roslyn\vbc.exe
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\roslyn\VBCSCompiler.exe
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\IOUTrackerApp.dll.config
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\IOUTrackerApp.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\IOUTrackerApp.pdb
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Antlr3.Runtime.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\EntityFramework.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\EntityFramework.SqlServer.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Newtonsoft.Json.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Owin.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.Helpers.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.Mvc.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.Optimization.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.Razor.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.WebPages.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.WebPages.Razor.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\WebGrease.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.Helpers.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.Mvc.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.Optimization.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.Razor.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.WebPages.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\System.Web.WebPages.Razor.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Antlr3.Runtime.pdb
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Newtonsoft.Json.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\EntityFramework.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\EntityFramework.SqlServer.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Projects\IOUTrackerApp\IOUTrackerApp\obj\Debug\IOUTrackerApp.csprojResolveAssemblyReference.cache
+C:\Projects\IOUTrackerApp\IOUTrackerApp\obj\Debug\IOUTrackerApp.dll
+C:\Projects\IOUTrackerApp\IOUTrackerApp\obj\Debug\IOUTrackerApp.pdb
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\roslyn\csc.exe
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\roslyn\vbc.exe
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\roslyn\VBCSCompiler.exe
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\IOUTrackerApp.dll.config
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\IOUTrackerApp.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\IOUTrackerApp.pdb
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Antlr3.Runtime.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\EntityFramework.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\EntityFramework.SqlServer.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Newtonsoft.Json.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Owin.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.Helpers.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.Mvc.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.Optimization.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.Razor.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.WebPages.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.WebPages.Razor.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\WebGrease.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.Helpers.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.Mvc.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.Optimization.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.Razor.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.WebPages.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\System.Web.WebPages.Razor.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Antlr3.Runtime.pdb
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Newtonsoft.Json.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\EntityFramework.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\EntityFramework.SqlServer.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\obj\Debug\IOUTrackerApp.csprojResolveAssemblyReference.cache
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\obj\Debug\IOUTrackerApp.dll
+C:\Projects\IOUTrackerApp_Ajax\IOUTrackerApp\obj\Debug\IOUTrackerApp.pdb
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\csc.exe
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\vbc.exe
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\VBCSCompiler.exe
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\IOUTrackerApp.dll.config
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\IOUTrackerApp.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\IOUTrackerApp.pdb
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Antlr3.Runtime.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\EntityFramework.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\EntityFramework.SqlServer.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Newtonsoft.Json.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Owin.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Helpers.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Mvc.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Optimization.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Razor.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.WebPages.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.WebPages.Razor.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\WebGrease.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Helpers.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Mvc.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Optimization.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Razor.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.WebPages.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.WebPages.Razor.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Antlr3.Runtime.pdb
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Newtonsoft.Json.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\EntityFramework.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\EntityFramework.SqlServer.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\obj\Debug\IOUTrackerApp.csprojResolveAssemblyReference.cache
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\obj\Debug\IOUTrackerApp.dll
+C:\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\obj\Debug\IOUTrackerApp.pdb
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\csc.exe
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\vbc.exe
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\IOUTrackerApp.dll.config
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\IOUTrackerApp.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\IOUTrackerApp.pdb
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Antlr3.Runtime.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\EntityFramework.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\EntityFramework.SqlServer.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Newtonsoft.Json.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Owin.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Helpers.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Mvc.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Optimization.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Razor.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.WebPages.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\WebGrease.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Helpers.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Mvc.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Optimization.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.Razor.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.WebPages.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Antlr3.Runtime.pdb
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Newtonsoft.Json.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\EntityFramework.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\EntityFramework.SqlServer.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\obj\Debug\IOUTrackerApp.csprojResolveAssemblyReference.cache
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\obj\Debug\IOUTrackerApp.dll
+C:\Users\vidya\Google Drive\Projects\IOUTrackerApp_JQuery\IOUTrackerApp\obj\Debug\IOUTrackerApp.pdb

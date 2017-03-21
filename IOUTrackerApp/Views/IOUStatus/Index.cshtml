@@ -1,0 +1,45 @@
+﻿@model IEnumerable<IOUTrackerApp.Models.IOUStatus>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.color.color)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.status)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr style="background:@item.color.color">
+            <td>
+            @Html.DisplayFor(modelItem => item.color.color)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.status)
+            </td>
+            <td>
+                @if (item.statusID != 1 && item.statusID != 2)
+                {
+                    <text>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.statusID }) |
+                        @*@Html.ActionLink("Details", "Details", new { id = item.statusID }) |*@
+                        @Html.ActionLink("Delete", "Delete", new { id = item.statusID })
+                    </text>
+                }
+            </td>
+        </tr>
+        }
+
+    </table>

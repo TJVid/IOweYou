@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "IOUTrackerApp"
+  },
+  "hostingPlanName": {
+    "value": "IOUTracker"
+  },
+  "siteLocation": {
+    "value": "Central US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "96bcc781-72ce-4658-b872-96e9149a0120"
+  },
+  "resourceGroup": {
+    "value": "IOUTracker"
+  }
+}
